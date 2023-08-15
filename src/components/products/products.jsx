@@ -88,7 +88,7 @@ export default function Products() {
   return (
     <div >
       <div>
-        <h2>Productos</h2>
+        <h1>Repisas</h1>
         <div className={style.mainDiv}>
           {products.map((product) => (
             <div key={product.id}>

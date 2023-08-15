@@ -7,7 +7,7 @@ import style from './Nav.module.css'
    return (
       <>
          <nav className={style.nav}>
-            <div>Hola</div>
+            <div>Holaaaaaaaaaaaaa</div>
             <div>Hola</div>
             <div>Hola</div>
             <div>Hola</div>

@@ -1,6 +1,12 @@
 .mainDiv{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0 310px;
+    justify-content: space-evenly;
+    margin: 30px 120px;
+}
+
+@media only screen and (max-width: 800px){
+    .mainDiv{
+        margin: 10px;
+    }
 }

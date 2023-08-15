@@ -86,7 +86,7 @@ export default function Products() {
     },
   ]
   return (
-    <div >
+    <div>
       <div>
         <h1>Repisas</h1>
         <div className={style.mainDiv}>

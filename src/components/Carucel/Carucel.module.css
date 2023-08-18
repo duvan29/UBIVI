@@ -56,8 +56,13 @@
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #ffffffbc;
+    background-color: #ffffff;
     cursor: pointer;
+  }
+
+  .contactosbutton:hover {
+    color: #fff;
+    background-color: #646cff;
   }
   
   .arrowButton {
@@ -68,6 +73,12 @@
     transition: background-color 0.2s ease-in-out;
     z-index: 100;
   }
+
+  .arrowButton:hover {
+    color: #646cff;
+  }
+
+  
   
   .prevButton {
     left: 5px;
@@ -77,7 +88,6 @@
     right: 5px;
   }
   
-  
   .dotsContainer {
     display: flex;
     justify-content: center;
@@ -85,7 +95,6 @@
     cursor: pointer;
     position: absolute;
     top: 73%;
-    z-index: 100000000;
   }
   
   .dot {
@@ -95,8 +104,19 @@
   }
   
   .activeDot {
-    color: var(--primary-lm);
+    color: #646cff;
     margin: 0 4px;
     transition: color 0.2s ease-in-out;
   }
+
+  
+  @media only screen and (max-width: 800px){
+    .title{
+        max-width: 280px;
+      }
+      .dotsContainer {
+        top: 80%;
+      }
+  }
+  
   

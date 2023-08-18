@@ -50,13 +50,13 @@ const MainCarousel = () => {
         className={`${styles.prevButton} ${styles.arrowButton} ${styles.left}`}
         onClick={prev}
       >
-        <BsChevronCompactLeft size={30} />
+        <BsChevronCompactLeft size={50} />
       </div>
       <div
         className={`${styles.nextButton} ${styles.arrowButton} ${styles.right}`}
         onClick={next}
       >
-        <BsChevronCompactRight size={30} />
+        <BsChevronCompactRight size={50} />
       </div>
       <div className={styles.dotsContainer}>
         {slides.map((slide, index) => (

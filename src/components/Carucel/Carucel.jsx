@@ -4,6 +4,7 @@ import { RxDotFilled } from 'react-icons/rx';
 import styles from './Carucel.module.css'; // Import CSS module
 
 const slides = [
+    // AQUI LOS URL DE LAS IMAGENES PARA EL CARRUCEL //
   {
     url: 'https://www.megautos.com/wp-content/uploads/2021/01/autorepuestos-en-linea.jpg',
   },
@@ -41,6 +42,12 @@ const MainCarousel = () => {
 
   return (
     <div className={styles.carouselContainer}>
+        <div
+        className={styles.slide2}
+      >
+        <h1 className={styles.title}>Texto que quieras poner en el carrucel</h1>
+        <button className={styles.contactosbutton}>Contactanos</button>
+      </div>
       <div
         style={{ backgroundImage: `url(${slides[current].url})` }}
         className={styles.slide}

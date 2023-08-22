@@ -1,9 +1,39 @@
+.linkMenu{
+    text-decoration: none;
+}
+
 .nav{
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: right;
     padding: 0px;
-    background-color: aliceblue;
-    top: 0;
+    height: 60px;
+}
+
+.logo img{
+    margin-left: 60px;
+    width: auto;
+    height: 80px;
+    z-index: 1000;
+}
+
+.items{
+    margin-left: 1200px;
+    margin-top: -10px;
+    display: flex; 
+}
+
+.items .itemsDiv{
+    font-size: 20px;
+    margin: 20px;
+    color: #015aff;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.items .itemsDiv:hover{
+    padding: 5px 10px;
+    background: #1f80ff;
+    color: #ffffff;
+    border-radius: 15px;
 }

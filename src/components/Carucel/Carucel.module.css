@@ -45,6 +45,7 @@
 
   .title{
     max-width: 500px;
+    color: #fff;
   }
 
   .contactosbutton {
@@ -75,7 +76,7 @@
   }
 
   .arrowButton:hover {
-    color: #646cff;
+    color: #3f49ff;
   }
 
   
@@ -94,17 +95,16 @@
     padding-top: 4px;
     cursor: pointer;
     position: absolute;
-    top: 73%;
+    top: 750px;
   }
   
   .dot {
-    color: var(--primary-dm);
     margin: 0 4px;
     transition: color 0.2s ease-in-out;
   }
   
   .activeDot {
-    color: #646cff;
+    color: #3842ff;
     margin: 0 4px;
     transition: color 0.2s ease-in-out;
   }

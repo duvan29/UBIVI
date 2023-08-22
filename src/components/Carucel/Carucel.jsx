@@ -28,7 +28,7 @@ const MainCarousel = () => {
 
   const next = useCallback(() => {
     setCurrent((cur) => (cur === slides.length - 1 ? 0 : cur + 1));
-  }, [current]);
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {

@@ -6,7 +6,7 @@ import style from './Nav.module.css'
       <>
          <nav className={style.nav}>
                <div className={style.logo}>
-               AQUI VA EL LOGO
+                <img src='' alt='Image Logo'/>
                </div>
                <div>
                   <div className={style.items}>

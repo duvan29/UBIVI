@@ -1,5 +1,6 @@
 import './App.css'
 import MainCarousel from './components/Carucel/carucel';
+import Footer from './components/Footer/Footer';
 import Nav from './components/Nav/Nav'
 import Whatsapp from './components/icons/WhatsApp';
 import Products from './components/products/products'
@@ -15,6 +16,7 @@ function App() {
       <div>
         <Whatsapp/>
       </div>
+      <Footer/>
     </>
   )
 }

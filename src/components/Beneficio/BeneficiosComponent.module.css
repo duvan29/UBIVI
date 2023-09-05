@@ -1,5 +1,10 @@
-.beneficiosContainer {
-    /* display: flex; */
-   /* justify-content: space-evenly; */
+.beneficiosContainer{
+    justify-content: space-evenly;
+}
+
+.background{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 30px 120px;
-  }
+}

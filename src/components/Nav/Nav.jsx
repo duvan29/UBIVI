@@ -1,7 +1,7 @@
 import style from './Nav.module.css'
 
 
- const Nav = () => {
+const Nav = () => {
    return (     
       <>
          <nav className={style.nav}>

@@ -20,7 +20,7 @@
 }
 
 .items{
-    margin-left: 1280px;
+    margin-left: 1200px;
     display: flex; 
 }
 
@@ -31,9 +31,4 @@
     font-weight: bold;
     cursor: pointer;
     z-index: 1000;
-}
-
-.items .itemsDiv:hover{
-
-
 }

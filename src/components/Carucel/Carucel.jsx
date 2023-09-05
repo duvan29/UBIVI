@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
+import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 import styles from './Carucel.module.css'; // Import CSS module
 
@@ -41,13 +41,15 @@ const MainCarousel = () => {
   }, [current, next]);
 
   return (
-    <div className={styles.carouselContainer}>
-        <div
+    <div>
+      <div
         className={styles.slide2}
       >
         <h1 className={styles.title}>Texto que quieras poner en el carrucel</h1>
+        <p>Voluptate laboris labore voluptate cupidatat eu aute amet qui est. Fugiat Lorem fugiat enim duis esse laboris ipsum ex qui elit mollit id mollit. Mollit labore eu eu ipsum labore aute duis. Incididunt cupidatat aliquip eu laborum qui non sit eiusmod reprehenderit Lorem ex cupidatat. Quis ipsum ullamco Lorem enim tempor consequat ad non. Officia labore elit excepteur enim cillum pariatur officia aliqua.</p>
         <button className={styles.contactosbutton}>Contactanos</button>
       </div>
+      <div className={styles.carouselContainer}>
       <div
         style={{ backgroundImage: `url(${slides[current].url})` }}
         className={styles.slide}
@@ -57,13 +59,13 @@ const MainCarousel = () => {
         className={`${styles.prevButton} ${styles.arrowButton} ${styles.left}`}
         onClick={prev}
       >
-        <BsChevronCompactLeft size={50} />
+        <BsFillArrowLeftCircleFill size={70} />
       </div>
       <div
         className={`${styles.nextButton} ${styles.arrowButton} ${styles.right}`}
         onClick={next}
       >
-        <BsChevronCompactRight size={50} />
+        <BsFillArrowRightCircleFill size={70} />
       </div>
       <div className={styles.dotsContainer}>
         {slides.map((slide, index) => (
@@ -77,6 +79,8 @@ const MainCarousel = () => {
         ))}
       </div>
     </div>
+    </div>
+    
   );
 };
 

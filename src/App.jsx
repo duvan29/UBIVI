@@ -1,5 +1,6 @@
 import './App.css'
 import AboutUsComponent from './components/AboutUs/about';
+import BeneficiosContainer from './components/Beneficio/BeneficioComponent';
 import MainCarousel from './components/Carucel/carucel';
 // import Footer from './components/Footer/Footer';
 import Nav from './components/Nav/Nav'
@@ -17,7 +18,8 @@ function App() {
       <div>
         <Whatsapp/>
       </div>
-      <AboutUsComponent/>
+      <BeneficiosContainer/>
+      {/* <AboutUsComponent/> */}
       {/* <Footer/> */}
     </>
   )

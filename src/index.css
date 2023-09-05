@@ -34,14 +34,15 @@ button {
   border: 1px solid transparent;
   color: #000;
   padding: 0.6em 1.2em;
-  width: 350px;
+  width: 250px;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #ffffffbc;
+  background-color: #ffffff;
   border-color: #313bfe;
   cursor: pointer;
 }
+
 button:hover {
   border-color: #ffff;
   background-color: #313bfe;
@@ -50,17 +51,4 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #26547b;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #000dff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }

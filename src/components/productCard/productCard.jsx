@@ -38,6 +38,8 @@ const ProductCard = ({ product }) => {
               <div className={style.color}>
                 <p>{product.color}</p>
               </div>
+            </div>
+            <div className={style.button}>
               <Button/>
             </div>
       </div>

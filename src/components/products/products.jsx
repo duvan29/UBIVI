@@ -86,9 +86,9 @@ export default function Products() {
     },
   ]
   return (
-    <div className={style.contenedor}>
+    <div id="repisas" className={style.contenedor}>
       <div>
-        <h1 className={style.title}>Repisas</h1>
+        <h1 className={style.title} >Repisas</h1>
         <div className={style.mainDiv}>
           {products.map((product) => (
             <div key={product.id}>

@@ -3,7 +3,7 @@ import style from './footer.module.css';
 
 const Footer = () => {
   return (
-    <footer className={style.footer}>
+    <footer className={style.footer}  id="Contacto">
       <div className={style.leftColumn}>
         <div className={style.contenedorBotones}>
           <div className={style.botones}>

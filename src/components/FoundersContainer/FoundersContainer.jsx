@@ -6,7 +6,7 @@ import styles from './Founders.module.css'
 
 const FoundersContainer = () => {
   return (
-    <>
+    <div id="fundadores">
     <h1>Fundadores</h1>
         <div className={styles.fundadoresContainer}>
         <Founder
@@ -25,7 +25,7 @@ const FoundersContainer = () => {
             imageSrc='https://ebani.com.co/wp-content/uploads/2023/08/Repisa-Rectangular-Bella-Beige-L-Virtual-Muebles-RB40123.png'
         />
         </div>
-    </>
+    </div>
     
   );
 };

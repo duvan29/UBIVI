@@ -9,16 +9,16 @@ const NavBar = () => {
       <div className={styles.menu}>
         <ul>
           <li>
-            <a to="/servicios">Servicios</a>
+            <a href="#repisas">Productos</a>
           </li>
           <li>
-            <a to="/sobre-nosotros">Sobre nosotros</a>
+            <a  href="#sobre">Sobre nosotros</a>
           </li>
           <li>
-            <a to="/fundadores">Fundadores</a>
+            <a  href="#fundadores">Fundadores</a>
           </li>
           <li>
-            <a to="/contacto">Contacto</a>
+            <a  href="#Contacto">Contacto</a>
           </li>
         </ul>
       </div>

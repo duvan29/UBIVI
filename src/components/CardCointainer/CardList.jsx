@@ -3,7 +3,7 @@ import styles from './CardList.module.css'
 
 const CardList = () => {
   return (
-    <div className={styles.contenedor}>
+    <div id="sobre" className={styles.contenedor}>
       <div  className={styles.cardContainer}>
       <div>
         <CardDescription

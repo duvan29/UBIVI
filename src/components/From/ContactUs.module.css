@@ -1,34 +1,44 @@
 /* ContactUs.module.css */
 form {
     display: flex;
+    align-items: st;
     flex-direction: column;
-    max-width: 400px;
     margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 40px 0;
   }
   
   label {
+    max-width: 400px;
     margin-bottom: 8px;
     font-weight: bold;
   }
   
   input[type="text"],
-  input[type="email"],
-  textarea {
+  input[type="email"]
+  {
+    max-width: 480px;
     padding: 10px;
     margin-bottom: 16px;
     border: 1px solid #ccc;
     border-radius: 3px;
   }
+
+  textarea{
+    max-width: 480px;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    min-height: 100px;
+  }
   
   input[type="submit"] {
+    max-width: 500px;
     background-color: #007bff;
     color: #fff;
-    padding: 10px 20px;
+    padding: 15px;
     border: none;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     cursor: pointer;
   }
   

@@ -31,7 +31,7 @@ export const ContactUs = () => {
       <input type="text" name="user_phone" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input type="submit" value="ENVIAR" />
     </form>
   );
 };

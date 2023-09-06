@@ -5,14 +5,6 @@ const Footer = () => {
   return (
     <footer className={style.footer}>
       <div className={style.leftColumn}>
-        <div className={style.contactInfo}>
-          <h1>Contáctanos</h1>
-          <p>¡Estamos aquí para ayudarte! Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.</p>
-          <ContactUs />
-        </div>
-      </div>
-      <div className={style.rightColumn}>
-        
         <div className={style.contenedorBotones}>
           <div className={style.botones}>
               <a href="https://github.com/duvan29" target="_blank" rel="noopener noreferrer">
@@ -30,6 +22,14 @@ const Footer = () => {
               </a>
           </div>
         </div>
+        <div className={style.contactInfo}>
+          <h1>Contáctanos</h1>
+          <p>¡Estamos aquí para ayudarte! Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros.</p>
+          <ContactUs />
+        </div>
+      </div>
+      <div className={style.rightColumn}>
+
       </div>
     </footer>
   );

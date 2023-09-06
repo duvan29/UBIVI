@@ -1,0 +1,72 @@
+/* NavBar.module.css */
+
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 92%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 80px;
+    z-index: 1000000000;
+    margin: 0;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu a {
+    margin: 0 16px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .menu a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .menu {
+      margin-top: 20px;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+    }
+  
+    .menu li {
+      margin: 10px 0;
+    }
+  }
+  

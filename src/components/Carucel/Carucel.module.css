@@ -1,12 +1,14 @@
 .carouselContainer {
+    padding-top: 90px;
+    /* background-color: #3842ff; */
     max-width: 100vw;
-    height: 700px;
+    height: 900px;
     width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: end;
-  }
+    }
   
   .slideContainer {
     position: relative;
@@ -99,7 +101,7 @@
     padding-top: 4px;
     cursor: pointer;
     position: absolute;
-    top: 750px;
+    top: 820px;
     right: 460px;
   }
   

@@ -1,0 +1,67 @@
+/* Card.module.css */
+.card {
+    position: relative;
+    width: 550px;
+    margin: 20px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .backgroundImage {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    color: #fff;
+    opacity: 1;
+    transition: opacity 0.3s;
+    background-color: rgba(0, 0, 0, 0.273);
+  }
+  
+  .title {
+    font-size: 30px;
+    margin: 0;
+    text-align: left;
+    color: #fff;
+    opacity: 1;
+    position: absolute;
+    bottom: 15px;
+  }
+  
+  .description {
+    font-size: 14px;
+    margin: 0;
+    display: block;
+    text-align: left;
+    max-width: 60%;
+    position: absolute;
+    bottom: 20px; /* Coloca la descripción justo encima del título */
+    left: 16px; /* Coloca la descripción en la parte izquierda */
+  }
+  
+  .card:hover .backgroundImage {
+    opacity: 1;
+    
+  }
+
+  .card:hover .title {
+    bottom: 120px;
+  }
+  
+  .card:hover .content {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.607);
+  }
+  

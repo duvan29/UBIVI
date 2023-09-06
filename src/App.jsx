@@ -1,7 +1,9 @@
 import './App.css'
-import AboutUsComponent from './components/AboutUs/about';
+// import AboutUsComponent from './components/AboutUs/about';
 import BeneficiosContainer from './components/Beneficio/BeneficioComponent';
+import CardList from './components/CardCointainer/CardList';
 import MainCarousel from './components/Carucel/carucel';
+import FoundersContainer from './components/FoundersContainer/FoundersContainer';
 // import Footer from './components/Footer/Footer';
 import Nav from './components/Nav/Nav'
 import Whatsapp from './components/icons/WhatsApp';
@@ -14,11 +16,13 @@ function App() {
     <>
       <Nav/>
       <MainCarousel/>
+      <BeneficiosContainer/>
       <Products/>
+      <CardList />
+      <FoundersContainer/>
       <div>
         <Whatsapp/>
       </div>
-      <BeneficiosContainer/>
       {/* <AboutUsComponent/> */}
       {/* <Footer/> */}
     </>

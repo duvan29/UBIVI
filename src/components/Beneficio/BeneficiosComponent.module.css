@@ -1,8 +1,12 @@
 .beneficiosContainer{
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    background: #999999;
+    margin-top: 140px;
 }
 
 .background{
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

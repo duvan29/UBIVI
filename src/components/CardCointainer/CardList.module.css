@@ -8,7 +8,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* margin: 66px; */
+    margin-bottom: 66px;
+    margin-left: 66px;
+    margin-right: 66px;
 }
 
 

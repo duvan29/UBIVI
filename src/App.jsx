@@ -4,8 +4,8 @@ import BeneficiosContainer from './components/Beneficio/BeneficioComponent';
 import CardList from './components/CardCointainer/CardList';
 import MainCarousel from './components/Carucel/carucel';
 import FoundersContainer from './components/FoundersContainer/FoundersContainer';
-import { ContactUs } from './components/From/Form';
-// import Footer from './components/Footer/Footer';
+// import { ContactUs } from './components/From/Form';
+import Footer from './components/Footer/Footer';
 import Nav from './components/Nav/Nav'
 import Whatsapp from './components/icons/WhatsApp';
 import Products from './components/products/products'
@@ -21,13 +21,13 @@ function App() {
       <Products/>
       <CardList />
       <FoundersContainer/>
-      <ContactUs/>
+      {/* <ContactUs/> */}
       <div>
         <Whatsapp/>
       </div>
       
       {/* <AboutUsComponent/> */}
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }

@@ -38,7 +38,7 @@ const Button = () => {
         }
       }, []);
     return(
-        <div className={style.mainDiv}>
+        <div>
             <a href="#Contacto" className="buttonScroll">
                 <button>Comprar</button>
             </a>  

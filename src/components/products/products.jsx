@@ -87,7 +87,6 @@ export default function Products() {
   ]
   return (
     <>
-    <div id="repisas" className={style.contenedor2}/>
       <div className={style.contenedor}>
         <div>
           <h1 className={style.title} >Repisas</h1>

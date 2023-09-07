@@ -30,10 +30,8 @@ const ProductCard = ({ product }) => {
           <div className={style.propiedades}>
             <div>
               <h3 className={style.title}>
-                <a href={product.href}>
                   <span aria-hidden="true"  />
                   {product.name}
-                </a>
               </h3>
               <div className={style.color}>
                 <p>{product.color}</p>

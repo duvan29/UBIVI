@@ -1,27 +1,29 @@
 /* footer.module.css */
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  /* justify-content: space-between; */
   width: 100%;
-  background-color: #333;
+  /* background-color: #333; */
   color: #fff;
   /* padding: 20px; */
 }
 
 .leftColumn {
-  background: #0888ff86;
+  background: #1B334D;
   backdrop-filter: blur(8px);
   flex: 1;
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
+  justify-content: center;
   text-align: start;
   align-items: center;
 }
 
-.contactInfo h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+.contactInfo h1 {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 15px;
 }
 
 .contactInfo p {
@@ -30,26 +32,23 @@
   margin: 0;
 }
 
-.rightColumn {
-  flex: 1;
-  padding-left: 20px;
-}
-
 .contenedorBotones{
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: end;
   width: 150px;
-  background: #ff3636;
+  background: #fff;
   margin-right: 70px;
   height: 300px;
   padding-right: 40px;
+  left: 0;
 }
 
 .botones {
   display: flex;
-  background: #D99748;
+  background: #1B334D;
   width: 65px;
   height: 65px;
   line-height: 65px;
@@ -74,6 +73,6 @@
 }
 
 .botones a svg:hover{
-  color: #D99748;
+  color: #1B334D;
   transition: 0.5s;
 }

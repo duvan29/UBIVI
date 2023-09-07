@@ -45,7 +45,7 @@
     margin: 0;
     display: block;
     text-align: left;
-    max-width: 60%;
+    max-width: 80%;
     position: absolute;
     bottom: 20px; /* Coloca la descripción justo encima del título */
     left: 16px; /* Coloca la descripción en la parte izquierda */
@@ -57,7 +57,7 @@
   }
 
   .card:hover .title {
-    bottom: 120px;
+    bottom: 130px;
   }
   
   .card:hover .content {

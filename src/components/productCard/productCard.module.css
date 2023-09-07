@@ -6,12 +6,10 @@
     margin-left: 40px;
     margin-right: 40px;
     flex-direction: column;
+    background-color: #1B334D;
+    border-radius: 5%;
 }
 
-.cardDiv:hover{
-    background-color: #fff;
-    border-radius: 2%;
-}
 
 .imgCard{
     width: 100%;
@@ -48,6 +46,7 @@
 
 
 .propiedades{
+    color: #fff;
     width: 100%;
     display: flex;
     justify-content: start;
@@ -61,15 +60,16 @@
 }
 
 .title{
+    color: #fff;
     display: flex;
     text-align: left;
 }
 
 .button{
     position: absolute;
-    width: 250px;
-    margin-top: 120px;
+    width: 100px;
+    margin-top: 110px;
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 80px;
 }

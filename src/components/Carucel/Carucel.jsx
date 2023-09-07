@@ -4,18 +4,17 @@ import { RxDotFilled } from 'react-icons/rx';
 import styles from './Carucel.module.css'; // Import CSS module
 
 const slides = [
-    // AQUI LOS URL DE LAS IMAGENES PARA EL CARRUCEL //
   {
-    url: 'https://www.megautos.com/wp-content/uploads/2021/01/autorepuestos-en-linea.jpg',
+    url: '/public/4.jpg',
   },
   {
-    url: 'https://www.comparaonline.cl/blog-statics/cl/uploads/2014/04/CC3B3mo_evitar_una_estafa_en_el_taller_mecC3A1nico__uuck6h.jpg',
+    url: '/public/5.jpg',
   },
   {
-    url: 'https://www.autoparteseltaca.com.ar/img/banner-02.jpg',
+    url: '/public/51.jpg',
   },
   {
-    url: 'https://www.rutamotor.com/wp-content/uploads/2022/02/Piezas-delicadas-del-vehiculo.jpg',
+    url: '/public/WhatsApp Image 2023-09-06 at 19.28.29.jpg',
   },
 ];
 
@@ -45,15 +44,16 @@ const MainCarousel = () => {
       <div
         className={styles.slide2}
       >
-        <h1 className={styles.title}>Texto que quieras poner en el carrucel</h1>
-        <p>Voluptate laboris labore voluptate cupidatat eu aute amet qui est. Fugiat Lorem fugiat enim duis esse laboris ipsum ex qui elit mollit id mollit. Mollit labore eu eu ipsum labore aute duis. Incididunt cupidatat aliquip eu laborum qui non sit eiusmod reprehenderit Lorem ex cupidatat. Quis ipsum ullamco Lorem enim tempor consequat ad non. Officia labore elit excepteur enim cillum pariatur officia aliqua.</p>
+        <h1 className={styles.title}>Ambiente Positivo</h1>
+        <p>Somos una empresa colombiana que nace en el año 2023, ubicada en Bogotá en la localidad quinta de Usme, conformada por Ingrid Monroy, Michael Moreno y Natalia Sánchez jóvenes emprendedores, cuya idea es ofrecer repisas para los espacios del hogar como lo son: alcobas y salas de estar; estas repisas cuentan con diseños novedosos, encaminados a la tendencia PA (psicología del ambiente) en la cual hablan acerca de cómo las personas se ven afectadas en su contexto frente al desorden del hogar, este producto busca generar el hábito de organización de ambientes del a través  de gustos particulares de los integrantes que conforman un hogar, donde buscamos resaltar la tranquilidad, paz y serenidad que se debe destacar</p>
         <button className={styles.contactosbutton}>Contactanos</button>
       </div>
       <div className={styles.carouselContainer}>
-      <div
-        style={{ backgroundImage: `url(${slides[current].url})` }}
-        className={styles.slide}
-      ></div>
+      <img
+      src={slides[current].url} // Aquí, slides[current].url debe ser la ruta relativa adecuada
+      alt="Descripción de la imagen"
+      className={styles.slide}
+      />
 
       <div
         className={`${styles.prevButton} ${styles.arrowButton} ${styles.left}`}

@@ -12,19 +12,19 @@ const FoundersContainer = () => {
     <h1>Fundadores</h1>
         <div className={styles.fundadoresContainer}>
         <Founder
-            name="Nombre del Fundador 1"
-            role="Cargo del Fundador 1"
-            imageSrc='https://ebani.com.co/wp-content/uploads/2023/08/Repisa-Rectangular-Bella-Beige-L-Virtual-Muebles-RB40123.png'
+            name="Natalia Sanchez"
+            role="Contabilidad"
+            imageSrc='/public/21.jpg'
         />
         <Founder
-            name="Nombre del Fundador 2"
-            role="Cargo del Fundador 2"
-            imageSrc='https://ebani.com.co/wp-content/uploads/2023/08/Repisa-Rectangular-Bella-Beige-L-Virtual-Muebles-RB40123.png'
+            name="Ingrid Monroy"
+            role="Tecnologia"
+            imageSrc='/public/22.jpg'
         />
         <Founder
-            name="Nombre del Fundador 3"
-            role="Cargo del Fundador 3"
-            imageSrc='https://ebani.com.co/wp-content/uploads/2023/08/Repisa-Rectangular-Bella-Beige-L-Virtual-Muebles-RB40123.png'
+            name="Michel Moreno"
+            role="Diseño"
+            imageSrc='/public/20.jpg'
         />
         </div>
     </div>

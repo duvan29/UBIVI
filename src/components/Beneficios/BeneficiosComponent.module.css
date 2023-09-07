@@ -2,7 +2,6 @@
   text-align: center;
   justify-content: center;
   padding: 20px;
-  /* border: 1px solid #ccc; */
   border-radius: 10px;
   margin: 10px; 
   width: 15%;
@@ -17,7 +16,7 @@
 
 .icon{
     display: flex;
-    background: #00ddff;
+    background: #ffffff;
     width: 65px;
     height: 65px;
     line-height: 65px;
@@ -36,11 +35,13 @@
 }
 
 .title {
+  color: #ffffff;
   font-size: 18px;
   margin: 10px 0;
 }
 
 .description {
+  color: #ffffff;
   font-size: 14px;
 }  
 

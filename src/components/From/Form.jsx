@@ -23,13 +23,13 @@ export const ContactUs = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail} className={styles.form}>
-      <label>Name</label>
+      <label>Nombre</label>
       <input type="text" name="user_name" />
       <label>Email</label>
       <input type="email" name="user_email" />
       <label>Telefono</label>
       <input type="text" name="user_phone" />
-      <label>Message</label>
+      <label>Mensaje</label>
       <textarea name="message" />
       <input type="submit" value="ENVIAR" />
     </form>

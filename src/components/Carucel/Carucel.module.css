@@ -52,39 +52,40 @@
   }
 
   .contactosbutton {
-    border-radius: 2%;
+    border-radius: 20px;
+    margin-top: 40px;
     border: 1px solid transparent;
-    color: #000;
+    color: #fff;
+    background-color: #1B334D;
     padding: 0.6em 1.2em;
     width: 180px;
     font-size: 1em;
     font-weight: 500;
-    background-color: #ffffff;
     cursor: pointer;
   }
 
   .contactosbutton:hover {
     color: #fff;
-    background-color: #646cff;
+    background-color: #0EC9F3;
   }
   
   .arrowButton {
     position: absolute;
-    top: 40%;
+    top: 45%;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center; /* Centrar verticalmente */
     border-radius: 100%;
     background-color: #ffffff;
-    color: cadetblue;
+    color: #1B334D;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     z-index: 100;
   }
 
   .arrowButton:hover {
-    color: #3f49ff;
+    color: #0EC9F3;
   }
 
   
@@ -108,12 +109,13 @@
   }
   
   .dot {
+    color:#1B334D;
     margin: 0 4px;
     transition: color 0.2s ease-in-out;
   }
   
   .activeDot {
-    color: #3842ff;
+    color: #0EC9F3;
     margin: 0 4px;
     transition: color 0.2s ease-in-out;
   }

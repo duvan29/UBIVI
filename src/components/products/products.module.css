@@ -2,18 +2,19 @@ html, body {
     margin: 0;
     padding: 0;
   }
-  
-  .contenedor {
-    /* background: #cccccc; */
-    width: 100%;
-    height: 2100px;
-  }
 
+  .container2{
+    height: 100px;
+    background-color: rgb(246, 139, 0);
+    margin-bottom: 60px;
+  }
+  
+  
 .mainDiv{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 30px 120px;
+    margin: 0px 120px;
 }
 
 

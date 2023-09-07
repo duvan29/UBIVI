@@ -6,7 +6,9 @@ import styles from './Founders.module.css'
 
 const FoundersContainer = () => {
   return (
-    <div id="fundadores">
+    <div>
+    <div id="fundadores" className={styles.container2}/>
+      <div >
     <h1>Fundadores</h1>
         <div className={styles.fundadoresContainer}>
         <Founder
@@ -26,6 +28,8 @@ const FoundersContainer = () => {
         />
         </div>
     </div>
+    </div>
+    
     
   );
 };

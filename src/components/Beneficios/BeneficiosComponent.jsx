@@ -5,12 +5,12 @@ const BeneficioComponent = ({ logo, title, description }) => {
   return (
     <div className={styles.mainDiv}>
       <div className={styles.iconText}>
-       <div className={styles.icon}> 
+       <div className={styles.icon} > 
           {logo}
        </div>
       </div>
       <h2 className={styles.title}>{title}</h2>
-      <p className={styles.description}>{description}</p>
+      <p className={styles.description} id="repisas">{description}</p >
     </div>
   );
 };

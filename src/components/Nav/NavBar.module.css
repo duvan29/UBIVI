@@ -2,8 +2,8 @@
 
 .navbar {
     display: flex;
-    /* position: fixed; */
-    /* width: 92%; */
+    position: fixed;
+    width: 92%;
     height: 60px;
     justify-content: space-between;
     align-items: center;
@@ -11,7 +11,6 @@
     color: #fff;
     padding: 10px 80px;
     z-index: 1000000000;
-    margin: 0;
   }
   
   .logo a {
@@ -42,6 +41,7 @@
     color: #fff;
     font-size: 16px;
     padding: 5px;
+    transition: background-color 0.3s ease-in-out;
   }
 
   .menu a:hover {

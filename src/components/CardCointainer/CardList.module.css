@@ -4,6 +4,12 @@
     /* height: 2100px; */
   }
 
+
+  .container2{
+    height: 70px;
+  }
+  
+
 .cardContainer{
     display: flex;
     flex-wrap: wrap;

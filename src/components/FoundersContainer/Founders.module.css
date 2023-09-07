@@ -3,4 +3,9 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 66px;
+    /* margin-top: 80px; */
+}
+
+.container2{
+    height: 60px;
 }

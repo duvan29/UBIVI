@@ -3,7 +3,9 @@ import styles from './CardList.module.css'
 
 const CardList = () => {
   return (
-    <div id="sobre" className={styles.contenedor}>
+    <>
+      <div id="sobre" className={styles.container2}/>
+      <div className={styles.contenedor}>
       <div  className={styles.cardContainer}>
       <div>
         <CardDescription
@@ -28,6 +30,8 @@ const CardList = () => {
       </div>
     </div>
     </div>
+    
+    </>
     
   );
 };

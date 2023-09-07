@@ -10,7 +10,7 @@ function Whatsapp() {
                 Contáctanos
             </div>
             <div className={style.pestaña}></div>
-            <a href="https://api.whatsapp.com/send?phone=TUNUMERODETÉLEFONO" className={style.whatsappIcon}>
+            <a href="https://api.whatsapp.com/send?phone=3123628582" className={style.whatsappIcon}>
                 <FontAwesomeIcon icon={faWhatsapp} />
             </a>
       </div>

@@ -9,6 +9,7 @@
   }
   
   .whatsappIcon {
+    color: #E1973C;    
     font-size: 60px;
     margin-right: 8px;
     transition: color 0.3s;
@@ -16,7 +17,7 @@
   
   .contactDiv {
     position: fixed;
-    background:#313bfe;
+    background:#E1973C;
     font-size: 20px;
     color: #fff;
     padding: 8px 10px;
@@ -32,7 +33,7 @@
     position: absolute;
     height: 10px;
     width: 10px;
-    background: #313bfe;
+    background: #E1973C;
     transition: 0.4s;
     left: 50%;
     margin-top: -4px;

@@ -40,8 +40,8 @@ const NavBar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logo}>
-        <a to="/">Logo</a>
+      <div>
+        <img className={styles.logo} src='/public/Logo_coloreado[1].png'/>
       </div>
       <div className={styles.menu}>
         <ul>

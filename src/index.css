@@ -32,16 +32,16 @@ h1 {
 
 button {
   border: none;
-  color: #000;
+  color: #1B334D;
   padding: 0.6em 1.2em;
   width: 180px;
   height: 60px;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: gray;
+  background-color: #E1973C;
   border-radius: 20px;
-  color: #fff;
+  font-size: 20px;
   cursor: pointer;
 }
 

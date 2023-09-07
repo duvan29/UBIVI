@@ -41,7 +41,7 @@ const NavBar = () => {
   return (
     <nav className={styles.navbar}>
       <div>
-        <img className={styles.logo} src='/public/Logo_coloreado[1].png'/>
+        <img className={styles.logo} src='/Logo_coloreado[1].png'/>
       </div>
       <div className={styles.menu}>
         <ul>

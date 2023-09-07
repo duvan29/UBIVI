@@ -14,17 +14,17 @@ const FoundersContainer = () => {
         <Founder
             name="Natalia Sanchez"
             role="Contabilidad"
-            imageSrc='/public/21.jpg'
+            imageSrc='/21.jpg'
         />
         <Founder
             name="Ingrid Monroy"
             role="Tecnologia"
-            imageSrc='/public/22.jpg'
+            imageSrc='/22.jpg'
         />
         <Founder
             name="Michel Moreno"
             role="Diseño"
-            imageSrc='/public/20.jpg'
+            imageSrc='/20.jpg'
         />
         </div>
     </div>

@@ -5,16 +5,16 @@ import styles from './Carucel.module.css'; // Import CSS module
 
 const slides = [
   {
-    url: '/public/4.jpg',
+    url: '/4.jpg',
   },
   {
-    url: '/public/5.jpg',
+    url: '/5.jpg',
   },
   {
-    url: '/public/51.jpg',
+    url: '/51.jpg',
   },
   {
-    url: '/public/WhatsApp Image 2023-09-06 at 19.28.29.jpg',
+    url: '/WhatsApp Image 2023-09-06 at 19.28.29.jpg',
   },
 ];
 

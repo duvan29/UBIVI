@@ -81,10 +81,12 @@
   .contactInfo {
     max-width: 300px;
     padding-bottom: 75px;
+    display: flex;
+    flex-direction: column;
   }
 
   .contenedorBotones{
-    position: absolute;
+    /* position: ; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;

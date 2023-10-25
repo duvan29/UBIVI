@@ -75,3 +75,21 @@
     align-items: center;
     margin-left: 80px;
 }
+
+@media only screen and (max-width: 800px){
+    .cardDiv {
+        width: 300px;
+    }
+    .sombra{
+        width: 300px;
+        
+    }
+
+    .price{
+        margin-left: 200px;
+    }
+    
+    
+    
+  }
+  

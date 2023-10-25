@@ -45,3 +45,12 @@
   font-size: 14px;
 }  
 
+
+
+@media only screen and (max-width: 800px){
+  .mainDiv{
+    width: 50%;
+  }
+}
+
+

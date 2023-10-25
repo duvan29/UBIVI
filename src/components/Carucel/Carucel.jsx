@@ -40,7 +40,7 @@ const MainCarousel = () => {
   }, [current, next]);
 
   return (
-    <div>
+    <div className={styles.container}>
       <div
         className={styles.slide2}
       >
@@ -48,37 +48,41 @@ const MainCarousel = () => {
         <p>Somos una empresa colombiana que nace en el año 2023, ubicada en Bogotá en la localidad quinta de Usme, conformada por Ingrid Monroy, Michael Moreno y Natalia Sánchez jóvenes emprendedores, cuya idea es ofrecer repisas para los espacios del hogar como lo son: alcobas y salas de estar; estas repisas cuentan con diseños novedosos, encaminados a la tendencia PA (psicología del ambiente) en la cual hablan acerca de cómo las personas se ven afectadas en su contexto frente al desorden del hogar, este producto busca generar el hábito de organización de ambientes del a través  de gustos particulares de los integrantes que conforman un hogar, donde buscamos resaltar la tranquilidad, paz y serenidad que se debe destacar</p>
         <button className={styles.contactosbutton}>Contactanos</button>
       </div>
-      <div className={styles.carouselContainer}>
-      <img
-      src={slides[current].url} // Aquí, slides[current].url debe ser la ruta relativa adecuada
-      alt="Descripción de la imagen"
-      className={styles.slide}
-      />
 
-      <div
-        className={`${styles.prevButton} ${styles.arrowButton} ${styles.left}`}
-        onClick={prev}
-      >
-        <BsFillArrowLeftCircleFill size={70} />
-      </div>
-      <div
-        className={`${styles.nextButton} ${styles.arrowButton} ${styles.right}`}
-        onClick={next}
-      >
-        <BsFillArrowRightCircleFill size={70} />
-      </div>
-      <div className={styles.dotsContainer}>
-        {slides.map((slide, index) => (
-          <div
-            key={index}
-            onClick={() => setCurrent(index)}
-            className={current === index ? styles.activeDot : styles.dot}
+
+
+      <div className={styles.carouselContainer}>
+      <div className={styles.arrowContainer}>
+        <div
+            className={`${styles.prevButton} ${styles.arrowButton} ${styles.left}`}
+            onClick={prev}
           >
-            <RxDotFilled size={30}/>
+            <BsFillArrowLeftCircleFill size={70} />
           </div>
-        ))}
+          <div
+            className={`${styles.nextButton} ${styles.arrowButton} ${styles.right}`}
+            onClick={next}
+          >
+            <BsFillArrowRightCircleFill size={70} />
+          </div>
       </div>
-    </div>
+        <img
+        src={slides[current].url} // Aquí, slides[current].url debe ser la ruta relativa adecuada
+        alt="Descripción de la imagen"
+        className={styles.slide}
+        />
+        <div className={styles.dotsContainer}>
+          {slides.map((slide, index) => (
+            <div
+              key={index}
+              onClick={() => setCurrent(index)}
+              className={current === index ? styles.activeDot : styles.dot}
+            >
+              <RxDotFilled size={30}/>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
     
   );

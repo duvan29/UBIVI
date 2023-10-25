@@ -76,3 +76,25 @@
   color: #1B334D;
   transition: 0.5s;
 }
+
+@media only screen and (max-width: 600px){
+  .contactInfo {
+    max-width: 300px;
+    padding-bottom: 75px;
+  }
+
+  .contenedorBotones{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    width: 100%;
+    background: #fff;
+    margin-right: 70px;
+    height: auto;
+    /* padding-right: 40px; */
+    /* left: 0; */
+    bottom: 0;
+  }
+}

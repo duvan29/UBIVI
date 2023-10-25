@@ -49,3 +49,12 @@
   .whatsappIconContainer:hover .pestaña {
     opacity: 1;
   }
+
+  @media only screen and (max-width: 620px){
+    .whatsappIconContainer {
+      position: fixed;
+      bottom: 120px;
+      right: 10px;
+    }
+  }
+  

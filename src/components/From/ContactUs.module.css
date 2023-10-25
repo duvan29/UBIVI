@@ -1,7 +1,6 @@
 /* ContactUs.module.css */
 form {
     display: flex;
-    align-items: st;
     flex-direction: column;
     margin: 0 auto;
     padding: 40px 0;
@@ -57,4 +56,27 @@ form {
     background-color: #fff;
     color: #000;
   }
+
+  @media only screen and (max-width: 600px){
+    form {
+      width: 300px;
+    }
+    label {
+      max-width: 300px;
+    }
+    
+    input[type="text"],
+    input[type="email"]
+    {
+      max-width: 300px;
+    }
+  
+    textarea{
+      max-width: 300px;
+    }
+    input[type="submit"] {
+      margin-left: 80px;
+    }
+  }
+  
   

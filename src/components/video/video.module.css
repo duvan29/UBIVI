@@ -1,7 +1,7 @@
 .vismeContainer{
     position: relative;
-    width: 100%;
-    /* background: #000; */
+    width: 96%;
+    background: #000;
     height: 700px;
     display: flex;
     justify-content: center;

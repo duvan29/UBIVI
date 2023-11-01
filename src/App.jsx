@@ -7,7 +7,7 @@ import Whatsapp from './components/icons/WhatsApp';
 import Products from './components/products/products'
 import NavBar from './components/Nav/NavBar';
 import MainCarousel from './components/Carucel/Carucel';
-// import Video from './components/video/video';
+import Video from './components/video/video';
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
       <Products/>
       <CardList />
       <FoundersContainer/>
-      {/* <Video/> */}
+      <Video/>
       <div>
         <Whatsapp/>
       </div>

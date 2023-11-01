@@ -26,7 +26,7 @@
 }
 
 .sombra{
-    width: 320px;
+    width: 350px;
     height: 365px;
     border-radius: 5%;
     position: absolute;
@@ -36,8 +36,8 @@
 
 .price{
     width: 100px;
-    margin-left: 210px;
-    margin-top: -50px;
+    margin-left: 240px;
+    margin-top: -80px;
     font-size: x-large;
     z-index: 100000;
     position: absolute;
@@ -56,7 +56,7 @@
 
 .color{
     display: flex;
-    margin-top: 0px;
+    margin-top: -20px;
     text-align: left;
 }
 
@@ -81,12 +81,12 @@
         width: 300px;
     }
     .sombra{
-        width: 270px;
+        width: 300px;
         
     }
 
     .price{
-        margin-left: 160px;
+        margin-left: 200px;
     }
 
     .button{
@@ -96,7 +96,7 @@
         margin-top: 135px;
         display: flex;
         align-items: center;
-        margin-left: 50px;
+        margin-left: 65px;
     }
   }
   

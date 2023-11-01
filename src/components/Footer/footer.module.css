@@ -48,6 +48,8 @@
 
 .botones {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: #1B334D;
   width: 65px;
   height: 65px;
@@ -66,10 +68,10 @@
 
 .botones a svg {
   color: #fff;
-  width: auto;
   height: 40px;
   width: 40px;
-  padding: 12px;
+  margin-top: 22px;
+  margin-left: 2px;
 }
 
 .botones a svg:hover{

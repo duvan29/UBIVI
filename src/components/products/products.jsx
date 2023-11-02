@@ -10,7 +10,7 @@ export default function Products() {
       imageSrc: '/r2.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$65.000',
-      color: 'Elaborada de manera artesanal y fabricada con materiales biodegradables',
+      color: 'Elaborada de manera artesanal y fabricada con materiales biodegradables.',
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ export default function Products() {
       imageSrc: '/r1.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$65.000',
-      color: 'Black',
+      color: 'Elaborada de manera artesanal y fabricada con materiales biodegradables.',
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ export default function Products() {
       imageSrc: '/r3.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$65.000',
-      color: 'Black',
+      color: 'Elaborada de manera artesanal y fabricada con materiales biodegradables.',
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ export default function Products() {
       imageSrc: '/r4.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$65.000',
-      color: 'Black',
+      color: 'Elaborada de manera artesanal y fabricada con materiales biodegradables.',
     },
     {
       id: 5,
@@ -46,7 +46,7 @@ export default function Products() {
       imageSrc: '/r5.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$65.000',
-      color: 'Black',
+      color: 'Elaborada de manera artesanal y fabricada con materiales biodegradables.',
     },
     {
       id: 6,
@@ -55,7 +55,7 @@ export default function Products() {
       imageSrc: '/r6.jpg',
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$65.000',
-      color: 'Black',
+      color: 'Elaborada de manera artesanal y fabricada con materiales biodegradables.',
     },
     // {
     //   id: 7,
